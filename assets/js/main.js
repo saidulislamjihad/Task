@@ -71,26 +71,6 @@ $('.home-items-wrapper').owlCarousel({
     }
 });
 
-//Company Logo slider Js
-$('.company-logo-items-wrapper').owlCarousel({
-    loop: true,
-    margin: 10,
-    dots: false,
-    nav: false,
-    autoplay: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 5
-        }
-    }
-});
-
 //Testimonial slider Js
 $('.testimonial-items-wrapper').owlCarousel({
     loop: true,

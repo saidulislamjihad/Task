@@ -651,3 +651,243 @@ body {
     padding-left: 20px;
 }
 /*Footer section css End*/
+
+/*Blog page css start*/
+.blog-section {
+    background: #fff;
+    padding: 50px;
+}
+
+.blog-item-post-date-outer {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background: #FF7E16;
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+
+.blog-item-post-date-outer .date {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #fff;
+}
+
+.blog-item-post-date-outer .year {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.blog-item-outer {
+    margin-bottom: 40px;
+}
+
+.blog-item-outer:hover .blog-item-info-title {
+    color: #ff7e16;
+}
+
+.blog-item-info-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 30px;
+    font-family: 'DM Sans';
+}
+
+.blog-explore-more-btn {
+    display: inline-block;
+    border: 1px solid #ff7e16;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #ff7e16;
+}
+
+.blog-explore-more-btn:hover {
+    background: #ff7e16;
+    color: #fff;
+}
+
+.search-form {
+    margin-bottom: 30px;
+}
+
+.search-form input {
+    background: #F8F4F1;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+}
+
+.search-form input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.category-items-wrapper,
+.recent-blog-items-wrap,
+.tag-items-wrapper,
+.blog-contact-form {
+    background: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.search-form .serch-btn {
+    border: 1px solid #FF7E16;
+    background: #FF7E16;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search-form .serch-btn i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.blog-right-item-title {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.category-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.category-item-left,
+.category-item-right {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+.category-item-outer:hover .category-item-left,
+.category-item-outer:hover .category-item-right {
+    color: #FF7E16;
+}
+
+
+/*.recent-blog-items-wrap {
+    background: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}*/
+
+.recent-blog-item-outer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recent-blog-item-image img {
+    width: 80px;
+}
+
+.recent-blog-item-image {
+    margin-right: 10px;
+}
+
+.recent-blog-item-info-top {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #FF7E16;
+    margin-bottom: 5px;
+}
+
+.recent-blog-item-info-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.recent-blog-item-outer:hover .recent-blog-item-info-title {
+    color: #FF7E16;
+}
+
+.tag-items-inner {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    padding-bottom: 6px;
+    color: #0C0A06;
+}
+
+.tag-items-inner:hover {
+    color: #FF7E16;
+}
+
+.blog-contact-form-label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.blog-contact-form-input {
+    background: #FFEDDF;
+    margin-bottom: 15px;
+    height: 45px;
+    border: 1px solid #FFEDDF;
+    border-radius: 5px;
+}
+
+.blog-contact-form-input:focus,
+.blog-contact-form-textarea:focus {
+    box-shadow: none;
+    border: 1px solid #FFEDDF;
+}
+
+.blog-contact-form-textarea {
+    background: #FFEDDF;
+    margin-bottom: 15px;
+    border: 1px solid #FFEDDF;
+    border-radius: 5px;
+}
+
+.blog-contact-form-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #FF7E16;
+    padding: 15px 0;
+    border: 1px solid #FF7E16;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.blog-contact-form-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+/*Blog page css End*/
