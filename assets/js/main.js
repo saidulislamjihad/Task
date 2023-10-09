@@ -14,41 +14,7 @@ $('.nav-toggle-btn').click(function() {
     $('body').toggleClass('body-overflow');
 }); 
 
-$(document).ready(function() {
-    // Nav submenu Responsive
-    if ($(window).width() <= 1024) {
-        $('.nav-item-submenu').addClass('collapse');
-    } else {
-        $('.nav-item-submenu').removeClass('collapse');
-    }
-
-    $(window).resize(function() {
-        if ($(window).width() <= 1024) {
-            $('.nav-item-submenu').addClass('collapse');
-        } else {
-            $('.nav-item-submenu').removeClass('collapse');
-        }
-    });
-
-    // Nav submenu collapse Js
-    $(window).resize(function() {
-        if ($(window).width() <= 1024) {
-            $('.item-has-submenu .nav-item-link').on('click', function(e) {
-                e.preventDefault();
-                $(this).closest('.nav-item').find('.collapse').collapse('toggle');
-            });
-        }
-    });
-    if ($(window).width() <= 1024) {
-        $('.item-has-submenu .nav-item-link').on('click', function(e) {
-            e.preventDefault();
-            $(this).closest('.nav-item').find('.collapse').collapse('toggle');
-        });
-    }
-
-});
-
-//Company Logo slider Js
+//Home slider Js
 $('.home-items-wrapper').owlCarousel({
     loop: true,
     margin: 10,

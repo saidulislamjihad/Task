@@ -76,6 +76,12 @@
 	.testimonial-item-content .testimonial-text {
 	    font-size: 20px;
 	}
+	.about-content-title {
+	    font-size: 30px;
+	}
+	.about-content-text {
+	    font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 576px){
